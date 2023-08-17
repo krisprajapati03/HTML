@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <h1>Event Registrtion</h1>
+
+    <form action="">
+        <label for="name">Name :</label>
+    <br>
+    
+    <input type="text" name="name" id="name" >
+    <br><br>
+    <label for="mail">E-mail :</label>
+    <br>
+    
+    <input type="email" name="mail" id="mail">
+    <br><br>
+    <label for="phone">Number :</label>
+    <br>
+    <input type="tel" name="phone" id="phone" required>
+    <br>
+    <br>
+    <label for="box">Occupation :</label>
+    <select name="box" id="box" >
+            <!-- koi value ne hidden karva mate -->
+        
+        <option value="" disabled selected hidden>Choose one</option>
+
+
+        <option value="student">student</option>
+        <option value="officer">officer</option>
+        <option value="sitizan">sitizan</option>
+    </select>
+    <br><br>
+
+    <fieldset> 
+        <legend> Topic of interest</legend>
+
+        <label for="html">HTML</label>
+        <input type="checkbox" name="html" id="html" value="1">
+        <label for="java">JAVA</label>
+        <input type="checkbox" name="java" id="java" value="2">
+        <label for="c++">C++</label> 
+        <input type="checkbox" name="c++" id="c++" value="3">
+
+    </fieldset>
+    <br><br>
+
+    <label for="areabox">Comment :</label>
+    <br>
+    <textarea name="areabox" id="areabox" cols="30" rows="10" placeholder="Enter Your Comment"></textarea>
+    <br>
+    <input type="submit" name="Submit Data" id="data">
+    </form>
+</body>
+</html>
